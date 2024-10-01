@@ -1,0 +1,17 @@
+# Flutter native splash screen configuration
+flutter_native_splash:
+  color: "#1F1B46" # Purple shade background color
+  image: assets/images/Logo1.png # Path to your splash icon
+  android: true # Enable splash for Android
+  ios: true # Enable splash for iOS
+  web: false # Disable splash for web (if you want it for mobile only)
+  fullscreen: true # Make splash screen fullscreen
+
+  # Optional settings for image:
+  android_gravity: center # Image alignment for Android (default is center)
+  ios_content_mode: center # Image alignment for iOS (default is center)
+
+  android_12:
+    icon_background_color: "#1F1B46"
+    color: "#1F1B46"
+    image: assets/images/ic_launcher-web.png
